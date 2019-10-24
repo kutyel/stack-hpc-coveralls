@@ -37,7 +37,7 @@ getServiceAndJobId = do
     ciEnvVars =
       [ ("TRAVIS", ("travis-ci", "TRAVIS_JOB_ID"))
       , ("CIRCLECI", ("circleci", "CIRCLE_BUILD_NUM"))
-      , ("GITHUB", ("github", "GITHUB_ACTION"))
+      , ("GITHUB_ACTIONS", ("github-actions", "GITHUB_ACTION"))
       , ("SEMAPHORE", ("semaphore", "REVISION"))
       , ("JENKINS_URL", ("jenkins", "BUILD_ID"))
       , ("CI_NAME", ("codeship", "CI_BUILD_NUMBER"))
